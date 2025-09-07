@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: chechkout code
-        uses: actions/chechkout@v5.0.0
+        uses: actions/checkout@v5.0.0
       
       - name: Run Tests
         run: npm test
