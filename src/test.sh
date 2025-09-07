@@ -3,7 +3,7 @@
 #src/test.sh
 EXPECTED="Hello, Test!"
 
-OUTPUT=$(node -e "consol.log(require('./src/app')('Test'))")
+OUTPUT=$(node -e "console.log(require('./src/app')('Test'))")
 
 if [ " $OUTPUT" == "$EXPECTED" ]; then
 
