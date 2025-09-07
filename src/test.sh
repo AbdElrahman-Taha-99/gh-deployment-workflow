@@ -7,7 +7,7 @@ OUTPUT=$(node -e "consol.log(require('./src/app')('Test'))")
 
 if [ " $OUTPUT" == "$EXPECTED" ]; then
 
-echo "</ Test Passed!"
+echo "</ Congrats! Test Passed!"
 
 exit 0
 
